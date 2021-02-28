@@ -1,7 +1,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Infinity Bots Forms`
+    title: `DODRP Applications`
   },
   plugins: [`gatsby-plugin-react-helmet`]
 };
