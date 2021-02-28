@@ -45,7 +45,7 @@ export default class Contact extends React.Component {
           onSubmit={this.handleSubmit}
         >
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-          <input type="hidden" name="form-name" value="Department Head Applications" />
+          <input type="hidden" name="form-name" value="Developer Application" />
           <p hidden>
             <label>
               Don’t fill this out:{" "}
