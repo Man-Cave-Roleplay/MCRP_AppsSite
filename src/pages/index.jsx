@@ -14,7 +14,7 @@ export default class Index extends React.Component {
         <ul>
           <li style={{ color: '#8A6AFD' }}><Link to="/appeals/" style={{ color: '#00B0E1' }}>Ban Appeals</Link></li>
           <li style={{ color: '#8A6AFD' }}><Link to="/application/" style={{ color: '#00B0E1' }}>Staff Applications</Link></li>
-          <li style={{ color: '#8A6AFD' }}><Link to="/Department Head Application/" style={{ color: '#00B0E1' }}>Department Head Applications</Link></li>
+          <li style={{ color: '#8A6AFD' }}><Link to="/depthead/" style={{ color: '#00B0E1' }}>Department Head Applications</Link></li>
 
         </ul>
       </div>
