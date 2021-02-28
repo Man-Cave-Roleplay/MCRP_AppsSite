@@ -16,6 +16,8 @@ export default class Index extends React.Component {
           <li style={{ color: '#8A6AFD' }}><Link to="/application/" style={{ color: '#00B0E1' }}>Staff Applications</Link></li>
         </ul>
       </div>
+      <footer>
+    <p>Copyright &copy; 2021 <a href=“https://github.com/InfinityBots/apps.infinitybots.xyz/”> Toxic Dev</a></p> </footer>
     );
   }
 }
