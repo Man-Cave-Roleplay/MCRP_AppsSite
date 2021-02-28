@@ -35,7 +35,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h1 style={{ color: 'white' }}>Department Head Applications</h1>
+        <h1 style={{ color: 'white' }}>SAHP Application</h1>
         <form
           name="sahpapps"
           method="post"
