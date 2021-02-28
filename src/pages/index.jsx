@@ -9,7 +9,7 @@ export default class Index extends React.Component {
     return (
       <div>
         <p style={{ color: 'white' }}>
-          If you're interested in Aplying to be a member of our team, Appeal a ban or anything else you're in the right place, Please choose from one of the Forms Below
+          If you're interested in Aplying to be a member of one of our departments? Appeal a ban or anything else you're in the right place, Please choose from one of the Forms Below
         </p>
         <ul>
           <li style={{ color: '#8A6AFD' }}><Link to="/appeals/" style={{ color: '#00B0E1' }}>Ban Appeals</Link></li>
