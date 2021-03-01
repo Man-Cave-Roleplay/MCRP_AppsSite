@@ -146,6 +146,7 @@ export default class Contact extends React.Component {
           </p>
           <p>
             <button type="submit">Send</button>
+           </p>
         </form>
       </div>
     );
