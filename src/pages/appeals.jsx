@@ -54,8 +54,26 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Your Discord Username and Tag| Ex: ToxicDev#0001:<br />
+              Your Discord Username and Tag| Ex: XG.Mattis#0001:<br />
               <input type="text" style={{ width: '75%' }} name="name" onChange={this.handleChange} />
+            </label>
+          </p>
+                <p style={{ color: 'white' }}>
+            <label>
+              Your Email:<br />
+              <input type="id" style={{ width: '75%' }} style={{ width: '75%' }} name="email" onChange={this.handleChange} />
+            </label>
+          </p>
+                <p style={{ color: 'white' }}>
+            <label>
+              Suggestion Reason:<br />
+              <input type="id" style={{ width: '75%' }} style={{ width: '75%' }} name="email" onChange={this.handleChange} />
+            </label>
+          </p>
+                <p style={{ color: 'white' }}>
+            <label>
+              Suggestion Link:<br />
+              <input type="id" style={{ width: '75%' }} style={{ width: '75%' }} name="email" onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
