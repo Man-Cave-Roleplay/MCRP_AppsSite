@@ -54,19 +54,67 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Your Discord Username | Ex: ToxicDev#0001:<br />
+              Your Email:<br />
               <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Your Discord ID (For the Panel):<br />
+              Your Discord Username | Ex: XG.Mattis#0001:<br />
               <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Do you have any experience in Moderation / Testing Bots? If so please provide some proof:<br />
+              What Department Are You Applying To Become A Department Head For?:
+               Curent Positons Avalible
+               [SAHP] CommissionerAnd Below
+               [BCSO] Sheriff And Below
+               [LSPD] Chief Of Police And Below
+               [FBI] Director And Below
+               [SAFD] Chief Fire Officer And Below
+               [EMS]  Chief Medic And Below
+               [Dispatch] Dispatch Coordinator And Below
+               [FAA] Federal Aviation Administration And Below
+                    <br />
+              <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+         <p style={{ color: 'white' }}>
+            <label>
+              Why Are You Applying For This Department?:<br />
+              <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              What Can You Bring To This Department?:<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              What Experience Do You Have Within This Department? *MUST LIST SERVER NAMES/PROOF*:<br />
+              <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+            <p style={{ color: 'white' }}>
+            <label>
+              What Is The First 5 Things You Will Do If Accepted?:<br />
+              <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+           <p style={{ color: 'white' }}>
+            <label>
+              Why Should We Pick You Over Other Applicants?:<br />
+              <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+           <p style={{ color: 'white' }}>
+            <label>
+              Do You Understand The General Public Can Vote Any Service Executive Out Of Position If 
+              They Feel They Are Failing Them As A Executive A Majority Of The Public Have To Vote 
+              Publicly On A Google Forums If Voted Out You Will Be Able To Re Apply! After 2 Days:<br />
               <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
