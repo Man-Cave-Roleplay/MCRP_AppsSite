@@ -60,7 +60,7 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Your Discord Username | Ex: ToxicDev#0001:<br />
+              Your Discord Username | Ex: XG.Mattis#0001:<br />
               <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
