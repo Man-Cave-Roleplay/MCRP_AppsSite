@@ -35,9 +35,9 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h1 style={{ color: 'white' }}>BCSO Application</h1>
+        <h1 style={{ color: 'white' }}>Ban Appeals</h1>
         <form
-          name="bcsoapps"
+          name="appeal"
           method="post"
           action="/thanks/"
           data-netlify="true"
@@ -45,7 +45,7 @@ export default class Contact extends React.Component {
           onSubmit={this.handleSubmit}
         >
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-          <input type="hidden" name="form-name" value="BCSO Application" />
+          <input type="hidden" name="form-name" value="contact" />
           <p hidden>
             <label>
               Don’t fill this out:{" "}
@@ -112,8 +112,7 @@ export default class Contact extends React.Component {
               <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
-          </p>
-                <p style={{ color: 'white' }}>
+          <p style={{ color: 'white' }}>
             <label>
               What Does BCSO Do?:<br />
               <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
@@ -132,7 +131,7 @@ export default class Contact extends React.Component {
               <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
-                <p style={{ color: 'white' }}>
+          <p style={{ color: 'white' }}>
             <label>
               Do you understand You Can Be Suspended From BCSO For Disrespecting HRS:<br />
               <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
@@ -146,7 +145,7 @@ export default class Contact extends React.Component {
           </p>
           <p>
             <button type="submit">Send</button>
-           </p>
+            </p>
         </form>
       </div>
     );

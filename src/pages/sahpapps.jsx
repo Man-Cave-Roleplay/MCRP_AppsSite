@@ -112,8 +112,7 @@ export default class Contact extends React.Component {
               <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
-          </p>
-                <p style={{ color: 'white' }}>
+          <p style={{ color: 'white' }}>
             <label>
               What Does SAHP Do?:<br />
               <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />

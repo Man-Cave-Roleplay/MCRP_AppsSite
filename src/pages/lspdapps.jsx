@@ -52,8 +52,7 @@ export default class Contact extends React.Component {
               <input name="bot-field" onChange={this.handleChange} />
             </label>
           </p>
-           </p>
-               <p style={{ color: 'white' }}>
+          <p style={{ color: 'white' }}>
             <label>
               Your Email:<br />
               <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
@@ -112,7 +111,6 @@ export default class Contact extends React.Component {
               Why Should We Pick You Over Other Applicants 3 Sentences Minmum:<br />
               <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
-          </p>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
