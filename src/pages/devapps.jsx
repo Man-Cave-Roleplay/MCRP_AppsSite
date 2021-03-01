@@ -52,21 +52,39 @@ export default class Contact extends React.Component {
               <input name="bot-field" onChange={this.handleChange} />
             </label>
           </p>
-          <p style={{ color: 'white' }}>
+       <p style={{ color: 'white' }}>
             <label>
-              Your Discord Username | Ex: ToxicDev#0001:<br />
+              Your Email:<br />
               <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Your Discord ID (For the Panel):<br />
+              Your Discord Username | Ex: XG.Mattis#0001:<br />
+              <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              Please Explain What Experiences You Haven Detial In All Round Development?:<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+                <p style={{ color: 'white' }}>
+            <label>
+            Please Explain In Detail Your Experience In FiveM Development?:<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+                <p style={{ color: 'white' }}>
+            <label>
+                What Can You Bring To DODRP That Other Applicants Cant?:<br />
               <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Do you have any experience in Moderation / Testing Bots? If so please provide some proof:<br />
+             Please Provide Proof Of Said Experience/Work:<br />
               <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
