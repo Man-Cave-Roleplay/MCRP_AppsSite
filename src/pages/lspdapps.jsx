@@ -52,6 +52,13 @@ export default class Contact extends React.Component {
               <input name="bot-field" onChange={this.handleChange} />
             </label>
           </p>
+           </p>
+               <p style={{ color: 'white' }}>
+            <label>
+              Your Email:<br />
+              <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
           <p style={{ color: 'white' }}>
             <label>
               Your Discord Username | Ex: ToxicDev#0001:<br />
@@ -60,14 +67,82 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Your Discord ID (For the Panel):<br />
+              Do You Understand That Breaking Laws In Anyway Shape Of Form Will Result In Immidiate And Swift Action?:<br />
               <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Do you have any experience in Moderation / Testing Bots? If so please provide some proof:<br />
+             Question One: Do You Have Any Prior Experience In Law Enforcement In Anyway If so please state proof below if Not Type Negative:<br />
               <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              Question Two: How Would You Deal With A Officer Down:<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              How Would You Deal With A Bank Robbery:<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              How Would You Deal With A Pursuit:<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              In Detail Explain Your Skills In LSPD:<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              Why Do You Want To Join LSPD:<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              Why Should We Pick You Over Other Applicants 3 Sentences Minmum:<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+          </p>
+                <p style={{ color: 'white' }}>
+            <label>
+              What Does LSPD Do?:<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+                <p style={{ color: 'white' }}>
+            <label>
+              What Are Our Main Goals Here In LSPD:<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+                <p style={{ color: 'white' }}>
+            <label>
+             Do You Understand If You Are Found Breaking Rules, Driving around with lights on for 
+             no reason Or Caught Abusing Or Disrespecting People Out Of RP you will be  Suspended:<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+                <p style={{ color: 'white' }}>
+            <label>
+              Do you understand You Can Be Suspended From LSPD For Disrespecting HRS:<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+            </label>
+          </p>
+                <p style={{ color: 'white' }}>
+            <label>
+              Thank You For Applying For LSPD Your Results Will Be With You Within 24-48 Hours State Yes To Submit!<br />
+              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p>
