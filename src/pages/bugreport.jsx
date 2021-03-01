@@ -36,9 +36,9 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h1 style={{ color: 'white' }}>Suggestioins</h1>
+        <h1 style={{ color: 'white' }}>Bug Report</h1>
         <form
-          name="suggestions"
+          name="bugreport"
           method="post"
           action="/thanks/"
           data-netlify="true"
