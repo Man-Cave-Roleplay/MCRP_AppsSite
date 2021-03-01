@@ -18,6 +18,7 @@ export default class Index extends React.Component {
           <li style={{ color: '#8A6AFD' }}><Link to="/sahpapps/" style={{ color: '#00B0E1' }}>SAHP Application</Link></li>
           <li style={{ color: '#8A6AFD' }}><Link to="/bcsoapps/" style={{ color: '#00B0E1' }}>BCSO Application</Link></li>
           <li style={{ color: '#8A6AFD' }}><Link to="/lspdapps/" style={{ color: '#00B0E1' }}>LSPD Application</Link></li>
+          <li style={{ color: '#8A6AFD' }}><Link to="/safdapps/" style={{ color: '#00B0E1' }}>SAFD Application</Link></li>
           <li style={{ color: '#8A6AFD' }}><Link to="/appeals/" style={{ color: '#00B0E1' }}>Ban Appeals</Link></li>
           <li style={{ color: '#8A6AFD' }}><Link to="/bugreport/" style={{ color: '#00B0E1' }}>Bug Report</Link></li>
           <li style={{ color: '#8A6AFD' }}><Link to="/suggestions/" style={{ color: '#00B0E1' }}>suggestions</Link></li>
