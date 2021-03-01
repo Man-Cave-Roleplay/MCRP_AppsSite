@@ -43,7 +43,7 @@ export default class Template extends React.Component {
                   textDecoration: "none",
                 }}
               >
-                Infinity Bots
+               Department Of Dedicated Roleplay
               </Link>
             </h1>
           </div>
