@@ -55,49 +55,49 @@ export default class Contact extends React.Component {
           <p style={{ color: 'white' }}>
             <label>
               Your Email:<br />
-              <input type="text" style={{ width: '75%' }} name="name" onChange={this.handleChange} />
+              <input type="text" style={{ width: '75%' }} name="Email" onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Your Discord Username and Tag| Ex: XG.Mattis#0001:<br />
-              <input type="id" style={{ width: '75%' }} style={{ width: '75%' }} name="email" onChange={this.handleChange} />
+              <input type="id" style={{ width: '75%' }} style={{ width: '75%' }} name="Discord Username" onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
              Discord Username And Tag Of The Staff Member You Are Reporting :<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Discord Username Of Reported Staff Member" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
               Whitnesses Usernames If Non State None:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Whitneses Discord Username" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
             What Did They Do Please Answer In Detail?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="What Did They Do" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Evidence Of What They Did?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Evidence On Your Report" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
             What Punishment Do You Recommend They Get For Doing What They Did?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Suggested Punishemnt" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
               Do You Understand By Pressing Submit You Accept Our TOS/Rules:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Submit" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p>
