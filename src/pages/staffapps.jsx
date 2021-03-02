@@ -55,116 +55,116 @@ export default class Contact extends React.Component {
           <p style={{ color: 'white' }}>
             <label>
               Your Email:<br />
-              <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
+              <input type="text" name="Email" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Discord name & discriminator? | (ex. XG.Mattis#0001):<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Discord Username" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Steam Hex: Your Steam Hex Can Be Found Here http://www.vacbanned.com/:<br />
-              <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Steam Hex" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
             Age: (MUST BE 14+ If Caught Lying You Will Be Removed):<br />
-              <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Age" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               How long have you been apart  Of DODRP?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Time In DODRP" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Can you speak fluent English? (THIS IS MANDOTORY):<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Do You Speak Fluent English" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Do you have a quality Mic (MUST HAVE):<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Do You Have A Quality Mic" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Do you have any previous Staff experience from any other server If so please explain. Also State The Sever!:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Experience" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               How Long Have You Played FiveM Years or Months!:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="How Long ON The FiveM Platform?" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Why do you want to be an Staff?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Why Do You Want To Be Staff" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Why Should We Pick You Over Others?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Why Shoudl We Pick You Over Others" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
               WExplain In You're Opinion What COC Is Chain Of Command:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="What Is COC" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
              Do You Understand If You Are Found Breaking Rules, Driving around with lights on for 
              no reason Or Caught Abusing Or Disrespecting People Out Of RP you will be  Suspended:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Rules Agreement" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
              On a scale from 1-10, how mature would you consider yourself?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Maturity Scale" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
              If A Member Violates A Minor Rule What Would You Do?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="What Would You Do If A Member Violates A Minor Rule" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
              If A Member Was Going Around Saying They Was Staff Threatening  Members ETC [Mini Modding] Explain What Action You Will Do/Take!:<br />
-              <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="What Would You Do If Someone Was Mini Modding" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               If A Staff Members Was Caught Abusing By You What Would You Do?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="What Would You Do If A Member Of Staff Was Caught Abusing" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               If A Person Joins Threatening To DDOX People/Members What Would You Do?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="What Would You Do If Someone Joined Threatening To DDOS The Server Or Members" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
              Any Notes About You Or Anything We Need To Know?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Anything We Need To Know" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
@@ -172,14 +172,14 @@ export default class Contact extends React.Component {
               By stating below that you agree, you are confirming that you have had no external support or 
               assistance in completing this application form & acknowledge that this form could take up to 
               1-2 weeks before getting a response & if caught lying will lead to you being Blacklisted from The Staff. *:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="External Support Agreement" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Please review your application thoroughly before you submit it. You will receive a copy emailed
               to you. If you do not get a response within 1-4 weeks then you should consider your application rejected.:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Review Check" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p>
