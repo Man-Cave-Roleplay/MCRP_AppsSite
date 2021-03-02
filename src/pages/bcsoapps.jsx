@@ -222,20 +222,6 @@ export default class Contact extends React.Component {
                 { color: 'white' } } >
             <
             label >
-            Do You Understand If You Are Found Breaking Rules, Driving around with lights on
-            for no reason Or Caught Abusing Or Disrespecting People Out Of RP you will be Suspended: < br / >
-            <
-            textarea name = "Abuse Agreement"
-            style = {
-                { width: '75%' } }
-            onChange = { this.handleChange }
-            /> <
-            /label> <
-            /p> <
-            p style = {
-                { color: 'white' } } >
-            <
-            label >
             Do you understand You Can Be Suspended From BCSO For Disrespecting HRS: < br / >
             <
             textarea name = "Department Agreement"
