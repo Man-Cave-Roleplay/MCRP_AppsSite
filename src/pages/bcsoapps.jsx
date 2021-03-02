@@ -37,7 +37,7 @@ export default class Contact extends React.Component {
       <div>
         <h1 style={{ color: 'white' }}>BCSO Application</h1>
         <form
-          name="appeal"
+          name="BCSOapps"
           method="post"
           action="/thanks/"
           data-netlify="true"
@@ -45,29 +45,29 @@ export default class Contact extends React.Component {
           onSubmit={this.handleSubmit}
         >
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="form-name" value="BCSO Application" />
           <p hidden>
             <label>
               Don’t fill this out:{" "}
               <input name="bot-field" onChange={this.handleChange} />
             </label>
           </p>
-               <p style={{ color: 'white' }}>
+          <p style={{ color: 'white' }}>
             <label>
               Your Email:<br />
-              <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
+              <input type="text" name="Email" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Your Discord Username | Ex: XG.Mattis#0001:<br />
-              <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
+              <input type="text" name="Discord Username" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Do You Understand That Breaking Laws In Anyway Shape Of Form Will Result In Immidiate And Swift Action?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="law breaking agreement" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
@@ -79,73 +79,73 @@ export default class Contact extends React.Component {
           <p style={{ color: 'white' }}>
             <label>
               Question Two: How Would You Deal With A Officer Down:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="How Would You Deal With A Officer Down" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               How Would You Deal With A Bank Robbery:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="How Would You Deal With A Bank Robbery" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               How Would You Deal With A Pursuit:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="How Would You Deal With A Pursuit" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               In Detail Explain Your Skills In BCSO:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="In Detail Explain Your Skills In This Department" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Why Do You Want To Join BCSO:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Why Do You Want To Join This Department" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Why Should We Pick You Over Other Applicants 3 Sentences Minmum:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Why Should We Pick You Over Other Applicants" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
-          <p style={{ color: 'white' }}>
+                <p style={{ color: 'white' }}>
             <label>
               What Does BCSO Do?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="What Does This Department Do" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
               What Are Our Main Goals Here In BCSO:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Deprtment Goals style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
              Do You Understand If You Are Found Breaking Rules, Driving around with lights on for 
              no reason Or Caught Abusing Or Disrespecting People Out Of RP you will be  Suspended:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Abuse Agreement" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
-          <p style={{ color: 'white' }}>
+                <p style={{ color: 'white' }}>
             <label>
               Do you understand You Can Be Suspended From BCSO For Disrespecting HRS:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Department Agreement" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
               Thank You For Applying For BCSO Your Results Will Be With You Within 24-48 Hours State Yes To Submit!<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Submit" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <button type="submit">Send</button>
-            </p>
+          </p>
         </form>
       </div>
     );
