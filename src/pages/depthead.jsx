@@ -55,13 +55,13 @@ export default class Contact extends React.Component {
           <p style={{ color: 'white' }}>
             <label>
               Your Email:<br />
-              <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
+              <input type="text" name="Email" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Your Discord Username | Ex: XG.Mattis#0001:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Discord Username" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
@@ -77,19 +77,19 @@ export default class Contact extends React.Component {
                [Dispatch] Dispatch Coordinator And Below
                [FAA] Federal Aviation Administration And Below
                     <br />
-              <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="The Position Your Are Applying For" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
          <p style={{ color: 'white' }}>
             <label>
               Why Are You Applying For This Department?:<br />
-              <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
+              <input type="text" name="Why Are You Applying To Run This Department" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               What Can You Bring To This Department?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="positWhat Can You Bring To This Department" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
@@ -101,13 +101,13 @@ export default class Contact extends React.Component {
             <p style={{ color: 'white' }}>
             <label>
               What Is The First 5 Things You Will Do If Accepted?:<br />
-              <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="First 5 Things TO-DO When/If Accepted" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
            <p style={{ color: 'white' }}>
             <label>
               Why Should We Pick You Over Other Applicants?:<br />
-              <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Why Should We Pick You Over Others" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
            <p style={{ color: 'white' }}>
@@ -115,7 +115,7 @@ export default class Contact extends React.Component {
               Do You Understand The General Public Can Vote Any Service Executive Out Of Position If 
               They Feel They Are Failing Them As A Executive A Majority Of The Public Have To Vote 
               Publicly On A Google Forums If Voted Out You Will Be Able To Re Apply! After 2 Days:<br />
-              <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="General Public Vote Out Agreement" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p>
