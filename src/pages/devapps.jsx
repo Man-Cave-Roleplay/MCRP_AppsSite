@@ -55,37 +55,37 @@ export default class Contact extends React.Component {
        <p style={{ color: 'white' }}>
             <label>
               Your Email:<br />
-              <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
+              <input type="text" name="Email" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Your Discord Username | Ex: XG.Mattis#0001:<br />
-              <input type="text" name="name" style={{ width: '75%' }} onChange={this.handleChange} />
+              <input type="text" name="Discord Username" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Please Explain What Experiences You Haven Detial In All Round Development?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Expierences With All Round Development" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
             Please Explain In Detail Your Experience In FiveM Development?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Experience In FiveM Development" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
                 What Can You Bring To DODRP That Other Applicants Cant?:<br />
-              <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="What Can You Bring To DODRP" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
              Please Provide Proof Of Said Experience/Work:<br />
-              <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Proof Of Experiences" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p>
