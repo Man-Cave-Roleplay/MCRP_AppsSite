@@ -37,7 +37,7 @@ export default class Contact extends React.Component {
       <div>
         <h1 style={{ color: 'white' }}>Ban Appeals</h1>
         <form
-          name="appeal"
+          name="appeals"
           method="post"
           action="/thanks/"
           data-netlify="true"
