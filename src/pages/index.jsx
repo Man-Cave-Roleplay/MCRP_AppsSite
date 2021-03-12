@@ -15,14 +15,9 @@ export default class Index extends React.Component {
           <li style={{ color: '#8A6AFD' }}><Link to="/staffapps/" style={{ color: '#00B0E1' }}>Staff Application</Link></li>
           <li style={{ color: '#8A6AFD' }}><Link to="/devapps/" style={{ color: '#00B0E1' }}>Developer Application</Link></li>
           <li style={{ color: '#8A6AFD' }}><Link to="/depthead/" style={{ color: '#00B0E1' }}>Department Head Application</Link></li>
-          <li style={{ color: '#8A6AFD' }}><Link to="/sahpapps/" style={{ color: '#00B0E1' }}>SAHP Application</Link></li>
-          <li style={{ color: '#8A6AFD' }}><Link to="/metpsapps/" style={{ color: '#00B0E1' }}>BCSO Application</Link></li>
-          <li style={{ color: '#8A6AFD' }}><Link to="/nhsapps/" style={{ color: '#00B0E1' }}>LSPD Application</Link></li>
-          <li style={{ color: '#8A6AFD' }}><Link to="/lfbapps/" style={{ color: '#00B0E1' }}>SAFD Application</Link></li>
-          <li style={{ color: '#8A6AFD' }}><Link to="/appeals/" style={{ color: '#00B0E1' }}>Ban Appeals</Link></li>
-          <li style={{ color: '#8A6AFD' }}><Link to="/bugreport/" style={{ color: '#00B0E1' }}>Bug Report</Link></li>
-          <li style={{ color: '#8A6AFD' }}><Link to="/suggestions/" style={{ color: '#00B0E1' }}>Suggestions</Link></li>
-          <li style={{ color: '#8A6AFD' }}><Link to="/staffreports/" style={{ color: '#00B0E1' }}>Staff Report</Link></li>
+          <li style={{ color: '#8A6AFD' }}><Link to="/nhsapps/" style={{ color: '#00B0E1' }}>NHSApplication</Link></li>
+          <li style={{ color: '#8A6AFD' }}><Link to="/metpsapps/" style={{ color: '#00B0E1' }}>Metropolitan Police Application</Link></li>
+          <li style={{ color: '#8A6AFD' }}><Link to="/lfbapps/" style={{ color: '#00B0E1' }}>LFB Application</Link></li>
         </ul>
       </div>
     );
