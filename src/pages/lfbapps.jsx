@@ -35,9 +35,9 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h1 style={{ color: 'white' }}>SAFD Application</h1>
+        <h1 style={{ color: 'white' }}>LFB Application</h1>
         <form
-          name="safdapps"
+          name="lfbapps"
           method="post"
           action="/thanks/"
           data-netlify="true"
@@ -45,7 +45,7 @@ export default class Contact extends React.Component {
           onSubmit={this.handleSubmit}
         >
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-          <input type="hidden" name="form-name" value="SAFD Application" />
+          <input type="hidden" name="form-name" value="LFB Application" />
           <p hidden>
             <label>
               Don’t fill this out:{" "}
@@ -102,8 +102,8 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              What Skills Will You Bring To SAFD:<br />
-              <textarea name="What Skills Will You Bring To SAFD" style={{ width: '75%' }} onChange={this.handleChange} />
+              What Skills Will You Bring To LFB:<br />
+              <textarea name="What Skills Will You Bring To LFB" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
@@ -126,8 +126,8 @@ export default class Contact extends React.Component {
           </p>
                 <p style={{ color: 'white' }}>
             <label>
-              What Are Our Main Goals Here In SAFD:<br />
-              <textarea name="What Are SAFDS Main Goals" style={{ width: '75%' }} onChange={this.handleChange} />
+              What Are Our Main Goals Here In LFB:<br />
+              <textarea name="What Are LFB Main Goals" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
@@ -145,7 +145,7 @@ export default class Contact extends React.Component {
           </p>
                 <p style={{ color: 'white' }}>
             <label>
-              Thank You For Applying For SAFD Your Results Will Be With You Within 24-48 Hours State Yes To Submit!<br />
+              Thank You For Applying For LFB Your Results Will Be With You Within 24-48 Hours State Yes To Submit!<br />
               <textarea name="Thanks For Applying" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
