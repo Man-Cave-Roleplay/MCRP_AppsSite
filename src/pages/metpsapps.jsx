@@ -35,7 +35,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h1 style={{ color: 'white' }}>met Application</h1>
+        <h1 style={{ color: 'white' }}>Metropolitan Police Application</h1>
         <form
           name="metpsapps"
           method="post"
