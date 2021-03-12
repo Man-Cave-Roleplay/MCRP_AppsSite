@@ -35,9 +35,9 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h1 style={{ color: 'white' }}>LSPD Application</h1>
+        <h1 style={{ color: 'white' }}>met Application</h1>
         <form
-          name="lspdapps"
+          name="metpsapps"
           method="post"
           action="/thanks/"
           data-netlify="true"
@@ -96,14 +96,14 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              In Detail Explain Your Skills In LSPD:<br />
-              <textarea name="Detailed Explaination Of Their Skills In LSPD" style={{ width: '75%' }} onChange={this.handleChange} />
+              In Detail Explain Your Skills In Metropolitan Police:<br />
+              <textarea name="Detailed Explaination Of Their Skills In Metropolitan Police" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Why Do You Want To Join LSPD:<br />
-              <textarea name="Why Do You Want To Join LSPD" style={{ width: '75%' }} onChange={this.handleChange} />
+              Why Do You Want To Join Metropolitan Police:<br />
+              <textarea name="Why Do You Want To Join Metropolitan Police" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
@@ -114,14 +114,14 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              What Does LSPD Do?:<br />
-              <textarea name="What Does LSPD Do" style={{ width: '75%' }} onChange={this.handleChange} />
+              What Does Metropolitan Police Do?:<br />
+              <textarea name="What Does Metropolitan Police Do" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
-              What Are Our Main Goals Here In LSPD:<br />
-              <textarea name="What Are LSPDS Main Goals" style={{ width: '75%' }} onChange={this.handleChange} />
+              What Are Our Main Goals Here In Metropolitan Police:<br />
+              <textarea name="What Are Metropolitan Polic Main Goals" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
@@ -133,13 +133,13 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Do you understand You Can Be Suspended From LSPD For Disrespecting HRS:<br />
+              Do you understand You Can Be Suspended From Metropolitan Polic For Disrespecting HRS:<br />
               <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
-              Thank You For Applying For LSPD Your Results Will Be With You Within 24-48 Hours State Yes To Submit!<br />
+              Thank You For Applying For Metropolitan Polic Your Results Will Be With You Within 24-48 Hours State Yes To Submit!<br />
               <textarea name="Thanks For Applying" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
