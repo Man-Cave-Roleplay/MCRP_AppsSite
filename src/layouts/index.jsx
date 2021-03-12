@@ -16,9 +16,9 @@ export default class Template extends React.Component {
     return (
       <div>
         <Helmet
-          title="Department Of Dedicated Roleplay Official Applications Portal"
+          title="Mancave Roleplay Official Applications Portal"
           meta={[
-            { name: "description", content: "Interested in Apllying for a Department?, Reporting a bug or anything else of that nature? You can do so here." },
+            { name: "description", content: "Interested in Apllying for a Service?, Reporting a bug or anything else of that nature? You can do so here." },
             { name: "keywords", content: "Department Of Dedicated Roleplay, top.gg" },
           ]}
         />
