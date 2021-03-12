@@ -35,9 +35,9 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h1 style={{ color: 'white' }}>BCSO Application</h1>
+        <h1 style={{ color: 'white' }}>National Health Service Application</h1>
         <form
-          name="appeal"
+          name="nhsapps"
           method="post"
           action="/thanks/"
           data-netlify="true"
@@ -96,14 +96,14 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              In Detail Explain Your Skills In BCSO:<br />
-              <textarea name="Detailed Explaination Of Their Skills In BCSO" style={{ width: '75%' }} onChange={this.handleChange} />
+              In Detail Explain Your Skills In NHS:<br />
+              <textarea name="Detailed Explaination Of Their Skills In NHS" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Why Do You Want To Join BCSO:<br />
-              <textarea name="Why Do You Want To Join BCSO" style={{ width: '75%' }} onChange={this.handleChange} />
+              Why Do You Want To Join NHS:<br />
+              <textarea name="Why Do You Want To Join NHS" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
@@ -114,14 +114,14 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              What Does BCSO Do?:<br />
-              <textarea name="What Does BCSO Do" style={{ width: '75%' }} onChange={this.handleChange} />
+              What Does NHS Do?:<br />
+              <textarea name="What Does NHS Do" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
-              What Are Our Main Goals Here In BCSO:<br />
-              <textarea name="What Are BCSOS Main Goals" style={{ width: '75%' }} onChange={this.handleChange} />
+              What Are Our Main Goals Here In NHS:<br />
+              <textarea name="What Are NHS Main Goals" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
@@ -133,13 +133,13 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Do you understand You Can Be Suspended From BCSO For Disrespecting HRS:<br />
+              Do you understand You Can Be Suspended From NHS For Disrespecting HRS:<br />
               <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
                 <p style={{ color: 'white' }}>
             <label>
-              Thank You For Applying For BCSO Your Results Will Be With You Within 24-48 Hours State Yes To Submit!<br />
+              Thank You For Applying For NHS Your Results Will Be With You Within 24-48 Hours State Yes To Submit!<br />
               <textarea name="Thanks For Applying" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
