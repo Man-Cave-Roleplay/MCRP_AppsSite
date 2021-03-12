@@ -43,7 +43,7 @@ export default class Template extends React.Component {
                   textDecoration: "none",
                 }}
               >
-               Department Of Dedicated Roleplay
+               Mancave Roleplay
               </Link>
             </h1>
           </div>
